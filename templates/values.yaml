@@ -1,4 +1,7 @@
-name: <+stage.name>
+# Following will ot work if space in the stage name
+# name: <+stage.name>
+name: oli-nginx
+
 replicas: 2
 
 image: <+artifact.image>
