@@ -3,7 +3,7 @@
 #name: oli-nginx
 name: <+stage.spec.serviceConfig.serviceRef>
 
-replicas: 1
+replicas: <+stage.spec.serviceConfig.serviceDefinition.spec.variables.replicaCount>
 
 image: <+artifact.image>
 # dockercfg: <+artifact.imagePullSecret>
