@@ -2,7 +2,7 @@
 # name: <+stage.name>
 name: oli-nginx
 
-replicas: 1
+replicas: 0
 
 image: <+artifact.image>
 # dockercfg: <+artifact.imagePullSecret>
