@@ -1,6 +1,7 @@
 # Following will ot work if space in the stage name
 # name: <+stage.name>
-name: oli-nginx
+#name: oli-nginx
+name: <+stage.spec.serviceConfig.serviceRef>
 
 replicas: 1
 
