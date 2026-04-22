@@ -42,7 +42,7 @@ pipeline:
       description: ""
       required: false
       value: <+input>
-    - name: branch
+    - name: targetbranch
       type: String
       description: ""
       required: false
