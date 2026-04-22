@@ -45,3 +45,14 @@ pipeline:
                   spec:
                     shell: Sh
                     command: "echo \"targetBranch: <+trigger.targetBranch>\""
+  variables:
+    - name: java_version
+      type: String
+      description: ""
+      required: false
+      value: 1.3.4
+    - name: extra
+      type: String
+      description: ""
+      required: false
+      value: test value
