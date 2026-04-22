@@ -13,6 +13,6 @@ inputSet:
       - name: Notes
         type: String
         value: My test update
-      - name: branch
+      - name: targetbranch
         type: String
-        value: <+trigger.sourceBranch>
+        value: <+trigger.targetBranch>
