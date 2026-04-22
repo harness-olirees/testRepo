@@ -1,5 +1,6 @@
 inputSet:
   name: input_set_default
+  tags: {}
   identifier: input_set_default
   orgIdentifier: default
   projectIdentifier: olitest
@@ -12,3 +13,6 @@ inputSet:
       - name: Notes
         type: String
         value: My test update
+      - name: branch
+        type: String
+        value: <+trigger.branch>
