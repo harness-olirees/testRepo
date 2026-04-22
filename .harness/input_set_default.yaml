@@ -15,4 +15,4 @@ inputSet:
         value: My test update
       - name: branch
         type: String
-        value: <+trigger.branch>
+        value: <+trigger.sourceBranch>
