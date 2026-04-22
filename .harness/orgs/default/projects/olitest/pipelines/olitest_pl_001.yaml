@@ -26,7 +26,7 @@ pipeline:
                         script: |-
                           echo "YNWA"
                           echo "branch: <+trigger.branch>"
-                          echo "targetBranch: <+trigger.targetBranch>"
+                          echo "targetBranch: <+pipeline.variables.targetbranch>"
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
