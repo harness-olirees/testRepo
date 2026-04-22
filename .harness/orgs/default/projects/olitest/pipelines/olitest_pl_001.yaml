@@ -23,7 +23,9 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo "YNWA"
+                        script: |-
+                          echo "YNWA"
+                          echo "branch: <+trigger.sourceBranch>
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
