@@ -39,3 +39,8 @@ pipeline:
       description: ""
       required: false
       value: <+input>
+    - name: branch
+      type: String
+      description: ""
+      required: false
+      value: <+input>
