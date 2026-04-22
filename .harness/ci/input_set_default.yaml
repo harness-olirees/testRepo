@@ -1,0 +1,11 @@
+inputSet:
+  name: input_set_default
+  identifier: input_set_default
+  orgIdentifier: default
+  projectIdentifier: olitest
+  pipeline:
+    identifier: Test_CI
+    properties:
+      ci:
+        codebase:
+          build: <+input>
