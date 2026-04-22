@@ -25,7 +25,6 @@ pipeline:
                       spec:
                         script: |-
                           echo "YNWA"
-                          echo "branch: <+trigger.branch>"
                           echo "targetBranch: <+pipeline.variables.targetbranch>"
                     environmentVariables: []
                     outputVariables: []
