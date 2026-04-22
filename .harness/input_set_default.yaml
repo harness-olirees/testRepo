@@ -1,1 +1,14 @@
-
+inputSet:
+  name: input_set_default
+  identifier: input_set_default
+  orgIdentifier: default
+  projectIdentifier: olitest
+  pipeline:
+    identifier: olitest_pl_001
+    variables:
+      - name: java_version
+        type: String
+        value: "2.7"
+      - name: Notes
+        type: String
+        value: My test update
