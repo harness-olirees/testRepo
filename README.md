@@ -1,9 +1,2 @@
 # testRepo
-More tests
-asdf
-sadfasf
-asdfasd
-asDASF
-ASDF
-ASDF
-ASKJDHFKJasf
+More testing
