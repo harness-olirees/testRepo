@@ -1,0 +1,15 @@
+inputSet:
+  name: input set 3
+  tags: {}
+  identifier: input_set_3
+  orgIdentifier: default
+  projectIdentifier: olitest
+  pipeline:
+    identifier: olitest_pl_001
+    variables:
+      - name: java_version
+        type: String
+        value: "1.7"
+      - name: Notes
+        type: String
+        value: testRepo developtest 3
