@@ -12,4 +12,4 @@ inputSet:
         value: "1.7"
       - name: Notes
         type: String
-        value: testRepo developtest 3
+        value: testRepo developtest 3 another test
