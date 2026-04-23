@@ -1,5 +1,6 @@
 inputSet:
   name: input set
+  tags: {}
   identifier: input_set
   orgIdentifier: default
   projectIdentifier: olitest
@@ -11,4 +12,4 @@ inputSet:
         value: "1.7"
       - name: Notes
         type: String
-        value: testRepo main
+        value: testRepo developtest
